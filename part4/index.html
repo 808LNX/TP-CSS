@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        
+            <fieldset class="champsInfo">
+                <legend>A propos des CSS:</legend>
+                <p>Savez-vous ce que veut dire CSS</p>
+                <label for="oui_css">oui</label>
+                <input type="radio" name="savoir_css" id="oui_css">
+                <label for="non_css">non</label>
+                <input type="radio" name="savoir_css" id="non_css">
+                <label for="ifoui">Si oui, vous les utilisez plutôt</label>
+                <select name="ifoui" id="ifoui">
+                    <option value="souvent">Souvent</option>
+                    <option value="">Moyennement</option>
+                    <option value="">Jamais</option>
+                </select>
+            </fieldset>
+            <fieldset class="champsInfo">
+                <legend>Vos coordonnées:</legend>
+                <label for="email">Votre email: </label>
+                <input type="email" name="email" id="email">
+                <label for="comment">Vos commentaires: </label>
+                <textarea name="comment" id="comment"></textarea>
+            </fieldset>
+        <section id="bottomform">
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </section>
+    </form>
+</body>
+</html>
